@@ -1,0 +1,43 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+.animated-text {
+  font-size: 3rem;
+  color: #ff4081;
+  margin-bottom: 30px;
+}
+
+#showWishesBtn, #nextBtn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff4081;
+  color: white;
+}
+
+.wish-lines, .special-letter {
+  margin-top: 30px;
+  display: none;
+}
+
+.wish-line {
+  font-size: 1.5rem;
+  opacity: 0;
+  margin: 15px 0;
+  transition: opacity 1s;
+}
+
+#nextBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+}
