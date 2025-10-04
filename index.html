@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home Screen -->
+  <div id="homeScreen" class="center-box">
+    <h2 class="welcome-text">🎈 Tap the box for a surprise! 🎈</h2>
+    <div id="giftBox" class="gift-box shake">🎁</div>
+    <canvas id="confetti"></canvas>
+  </div>
+
+  <!-- Surprise Screen -->
+  <div id="surprise" class="hidden center-box">
+    <div class="photo-container">
+      <img src="photo.jpg" alt="Her Photo" class="photo zoom">
+    </div>
+    <h1 class="glow fade-in">🎉 Happy Birthday! 🎂</h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
